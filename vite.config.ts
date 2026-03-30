@@ -1,3 +1,6 @@
-@import './fonts.css';
-@import './tailwind.css';
-@import './theme.css';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+});
